@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #1ecbe1;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+h1{
+    /* display: static; */
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -8rem; */
+}
+.box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.bt{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 1rem rgb(0,0,0,0.3 );
+    font-size: 8vmin;
+   
+}
+#reset-btn{
+    padding: 1rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    
+}
+/* #newButton{
+    padding: 1rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 43rem;
+    margin-left: 43rem;
+   
+} */
+#Winner{
+    font-size: 50px;
+    color: rgb(8, 91, 0);
+    margin-top: 3rem;
+   
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+i{
+    
+   font-size: 2rem;
+   margin-right: 30px;
+   color: white;
+   margin-top: 10px;
+
+}
+
